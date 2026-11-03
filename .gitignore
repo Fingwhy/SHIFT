@@ -1,0 +1,20 @@
+# 编译产物（用 build.bat / build_demo.bat 重新生成，不入库）
+*.exe
+*.o
+*.obj
+*.pdb
+
+# WorkBuddy 工程数据
+.workbuddy/
+
+# 临时验证图（--shot 生成的正式截图不在此列）
+crop_check.png
+
+# 中易黑体：Windows 系统字体，EULA 禁止再分发，不入库
+# 正式使用的子集字体是 assets/font.ttf（Noto Sans SC，OFL）
+assets/simhei.ttf
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
