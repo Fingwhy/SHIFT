@@ -85,9 +85,10 @@ shift_game.c         第一版可玩循环（裁决层有已知缺陷，见 STAT
 
 所有 demo 都支持 `--shot` 参数：摆好一帧画面自动截图后退出，用于无人值守验证排版。
 
-## 素材许可
+## 许可证
 
+- **源代码** — MIT，见 [LICENSE](LICENSE)。
 - **raylib 5.5** — zlib 许可，可自由分发。
 - **assets/font.ttf** — Noto Sans SC 的子集（SIL Open Font License 1.1）。只保留了界面实际用到的 900 余字，从 17 MB 压到 290 KB。改动界面文字后若出现方块，运行 `python tools/make_font.py` 重新生成。
-- **assets/bgm.wav** — 背景音乐。
+- **assets/bgm.wav** — 背景音乐，遵循其原始授权，不在 MIT 范围内。
 - 其余图形与音效均由代码程序化生成，无外部素材。
